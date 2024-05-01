@@ -1,0 +1,44 @@
+textarea {
+    min-height: 400px;
+}
+
+.emails-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 1200px;
+}
+
+.letter {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: aliceblue;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+
+.letter:hover {
+    background-color: rgba(51, 126, 255, 0.2);
+}
+
+.letter>div {
+    margin: 2px 5px;
+}
+
+.sender {
+    flex: 3;
+}
+
+.subject {
+    flex: 10;
+}
+
+.timestamp {
+    flex: 2;
+}
+
+.unread {
+    background-color: rgba(189, 189, 189, 0.3);
+}
